@@ -1,0 +1,81 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.bak
+*.tmp
+*.temp
+
+# Test Screenshots & Dumps
+menu_screen.png
+menu_test.png
+
+# Sensitive Credentials & Secrets (SECURITY)
+**/db_credentials.php
+*.env
+*.env.*
+.env
+.env.*
+key.properties
+*.jks
+*.keystore
+
+# IntelliJ / Android Studio / IDE
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+build/
+/coverage/
+
+# Android Specific
+android/local.properties
+**/android/**/local.properties
+android/.gradle/
+**/android/**/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.apk
+*.aab
+
+# iOS / macOS Specific
+ios/Flutter/ephemeral/
+macos/Flutter/ephemeral/
+**/Pods/
+**/Pods
+ios/Podfile.lock
+macos/Podfile.lock
+ios/.symlinks/
+*.xcworkspace
+*.moved-aside
+DerivedData/
+
+# Windows / Linux Specific
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
