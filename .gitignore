@@ -19,6 +19,9 @@ migrate_working_dir/
 menu_screen.png
 menu_test.png
 
+# Backend / Server Admin (Kept in separate repo)
+server_admin/
+
 # Sensitive Credentials & Secrets (SECURITY)
 **/db_credentials.php
 *.env
